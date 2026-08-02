@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Арт-пространство «Этюд» — творческая студия</title>
-<meta name="description" content="Творческая студия для мастер-классов, выставок, воркшопов и арт-вечеринок от 10 до 80 человек.">
+<title>Арт-лаборатория «Палитра» — пространство для творчества</title>
+<meta name="description" content="Креативное пространство для художников, дизайнеров и творческих людей. Мастер-классы, выставки, резиденции и воркшопы.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,20 +14,20 @@
 
 <header class="site-header" id="siteHeader">
   <div class="wrap">
-    <a href="#hero" class="logo">Этюд <small>арт-пространство</small></a>
+    <a href="#hero" class="logo">Палитра <small>арт-лаборатория</small></a>
     <nav class="site-nav">
       <ul>
-        <li><a href="#about">О пространстве</a></li>
-        <li><a href="#services">Форматы</a></li>
-        <li><a href="#gallery">Галерея</a></li>
-        <li><a href="#process">Как это работает</a></li>
-        <li><a href="#testimonials">Отзывы</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#events">События</a></li>
+        <li><a href="#spaces">Пространства</a></li>
+        <li><a href="#residency">Резиденция</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
         <li><a href="#contact">Контакты</a></li>
       </ul>
     </nav>
     <div class="header-actions">
-      <a href="#contact" class="btn btn-outline">Свободные даты</a>
-      <a href="#contact" class="btn btn-gold">Забронировать</a>
+      <a href="#contact" class="btn btn-outline">Забронировать</a>
+      <a href="#contact" class="btn btn-primary">Стать резидентом</a>
       <button class="nav-toggle" id="navToggle" aria-label="Открыть меню">
         <span></span><span></span><span></span>
       </button>
@@ -37,290 +37,319 @@
 
 <div class="mobile-nav" id="mobileNav">
   <button class="close-btn" id="navClose" aria-label="Закрыть меню">✕</button>
-  <a href="#about">О пространстве</a>
-  <a href="#services">Форматы</a>
-  <a href="#gallery">Галерея</a>
-  <a href="#process">Как это работает</a>
-  <a href="#testimonials">Отзывы</a>
+  <a href="#about">О нас</a>
+  <a href="#events">События</a>
+  <a href="#spaces">Пространства</a>
+  <a href="#residency">Резиденция</a>
+  <a href="#reviews">Отзывы</a>
   <a href="#contact">Контакты</a>
 </div>
 
 <section class="hero" id="hero">
-  <div class="hero-arch">
-    <svg viewBox="0 0 300 420" fill="none">
-      <path d="M20 420V150C20 76 80 20 150 20C220 20 280 76 280 150V420" stroke="#E8A87C" stroke-opacity="0.55" stroke-width="1.2"/>
-      <path d="M55 420V155C55 96 96 52 150 52C204 52 245 96 245 155V420" stroke="#E8A87C" stroke-opacity="0.3" stroke-width="1"/>
-    </svg>
-  </div>
+  <div class="hero-bg"></div>
   <div class="wrap">
     <div class="hero-content">
-      <div class="eyebrow">Творческое пространство для вдохновения</div>
-      <h1>Место, где рождаются <em>идеи и шедевры</em></h1>
-      <p class="hero-sub">Арт-пространство «Этюд» — светлая студия, выставочный зал и уютная лаунж-зона для мастер-классов, выставок, воркшопов и творческих встреч от 10 до 80 человек.</p>
+      <div class="eyebrow">Творческая лаборатория</div>
+      <h1>Создавай, <em>вдохновляй,</em> твори</h1>
+      <p class="hero-sub">Арт-лаборатория «Палитра» — это 600 м² света, воздуха и свободы для художников, дизайнеров, фотографов и всех, кто ищет пространство для реализации идей.</p>
       <div class="hero-cta">
-        <a href="#contact" class="btn btn-gold">Забронировать пространство</a>
-        <a href="#gallery" class="btn btn-outline">Смотреть галерею</a>
+        <a href="#contact" class="btn btn-primary">Забронировать пространство</a>
+        <a href="#spaces" class="btn btn-outline">Изучить пространства</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-num">600</span>
+          <span class="hero-stat-label">м² творчества</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">12</span>
+          <span class="hero-stat-label">зон для работы</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">∞</span>
+          <span class="hero-stat-label">идей</span>
+        </div>
       </div>
     </div>
   </div>
-  <div class="hero-scroll">Листайте вниз</div>
 </section>
-
-<div class="stats">
-  <div class="wrap">
-    <div class="stat"><div class="num">5 лет</div><div class="label">вдохновляем творцов</div></div>
-    <div class="stat"><div class="num">280+</div><div class="label">проведённых мероприятий</div></div>
-    <div class="stat"><div class="num">80</div><div class="label">гостей вмещает студия</div></div>
-    <div class="stat"><div class="num">1</div><div class="label">команда на всё мероприятие</div></div>
-  </div>
-</div>
 
 <section class="about" id="about">
-  <div class="wrap about-grid">
-    <div class="about-art reveal">
-      <svg viewBox="0 0 400 500" fill="none">
-        <circle cx="330" cy="70" r="90" fill="#C47B4A" opacity="0.18"/>
-        <path d="M40 480 Q40 300 120 260 Q60 220 90 140 Q150 170 160 240 Q180 120 260 80 Q250 180 190 250 Q280 230 340 300 Q250 300 200 340 Q300 380 300 460" stroke="#E8A87C" stroke-width="1.2" opacity="0.6"/>
-      </svg>
-    </div>
-    <div class="about-text reveal">
-      <div class="eyebrow">О пространстве</div>
-      <h2>Светлая студия в центре города с атмосферой творчества</h2>
-      <p>Мы создали пространство, где художники, музыканты, фотографы и все творческие люди могут воплощать свои идеи. Высокие потолки, панорамные окна и профессиональное освещение делают «Этюд» идеальным местом для любых творческих проектов.</p>
-      <p>Наш координатор сопровождает вас на всех этапах — от планирования до реализации. Мы помогаем с организацией выставок, мастер-классов, фотосессий и арт-вечеринок. Вы фокусируетесь на творчестве, а мы заботимся о технических деталях.</p>
-      <div class="about-signature">
-        <div class="sig-name">Екатерина Морозова</div>
-        <div class="sig-role">основатель арт-пространства «Этюд»</div>
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="eyebrow">О нас</div>
+        <h2>Пространство, где идеи обретают форму</h2>
+        <p>«Палитра» родилась из желания создать место, где творческие люди могли бы работать, общаться и расти. Мы открыли двери в 2020 году, и с тех пор здесь прошло более 200 выставок, мастер-классов и резиденций.</p>
+        <p>Наша философия — дать художникам всё необходимое: свет, оборудование, атмосферу и сообщество. Мы не просто сдаём квадратные метры — мы создаём экосистему для творчества.</p>
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="about-feature-icon">✦</div>
+            <div>
+              <h4>Профессиональное освещение</h4>
+              <p>Система света, адаптируемая под живопись, скульптуру и фотографию</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">✦</div>
+            <div>
+              <h4>Сообщество единомышленников</h4>
+              <p>Регулярные встречи, открытые просмотры и совместные проекты</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">✦</div>
+            <div>
+              <h4>Гибкие форматы</h4>
+              <p>От часовой аренды до долгосрочных резиденций — выбирайте свой ритм</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual reveal">
+        <div class="about-visual-inner"></div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="services" id="services">
+<section class="events" id="events">
   <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Форматы</div>
-      <h2>Для каждого творческого проекта — своя атмосфера</h2>
-      <p>Мы адаптируем пространство под ваш формат, а не наоборот.</p>
+    <div class="section-head center reveal">
+      <div class="eyebrow">События</div>
+      <h2>Что происходит в «Палитре»</h2>
+      <p>Каждую неделю — новые события. Присоединяйтесь к нашему творческому сообществу.</p>
     </div>
-  </div>
-  <div class="wrap">
-    <div class="service-grid reveal">
-      <div class="service-card">
-        <svg class="icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 6l4 8h9l-7 6 3 9-9-6-9 6 3-9-7-6h9z"/></svg>
-        <h3>Мастер-классы</h3>
-        <p>Живопись, керамика, коллаж, фотография — проводите обучение в светлой и вдохновляющей студии.</p>
+    <div class="events-grid reveal">
+      <div class="event-card">
+        <div class="event-date">15-17 августа</div>
+        <h3>Международная резиденция</h3>
+        <p>Трёхдневный интенсив с приглашёнными художниками из Европы. Работа в группах, открытые просмотры и итоговая выставка.</p>
+        <a href="#" class="event-link">Узнать подробнее →</a>
       </div>
-      <div class="service-card">
-        <svg class="icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 34V16l12-8 12 8v18M16 34v-8h8v8"/></svg>
-        <h3>Выставки</h3>
-        <p>Персональные и групповые выставки с профессиональным светом, системой подвеса и зоной для вернисажа.</p>
+      <div class="event-card">
+        <div class="event-date">28 августа</div>
+        <h3>Вечерняя арт-вечеринка</h3>
+        <p>Неформальная встреча художников, музыкантов и всех творческих людей. Живая музыка, перформансы и свободное общение.</p>
+        <a href="#" class="event-link">Узнать подробнее →</a>
       </div>
-      <div class="service-card">
-        <svg class="icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 4v6M12 22c0-6 4-9 8-9s8 3 8 9M8 22h24l-2 12H10L8 22z"/></svg>
-        <h3>Воркшопы и лекции</h3>
-        <p>Конференции, творческие встречи, лекции — пространство легко трансформируется под любой формат.</p>
+      <div class="event-card">
+        <div class="event-date">Каждый вторник</div>
+        <h3>Открытая мастерская</h3>
+        <p>Приходите работать в общей студии, обмениваться опытом и находить единомышленников. Вход свободный для резидентов.</p>
+        <a href="#" class="event-link">Узнать подробнее →</a>
       </div>
-      <div class="service-card">
-        <svg class="icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 34c8-4 14-10 14-18a8 8 0 00-14-5 8 8 0 00-14 5c0 8 6 14 14 18z"/></svg>
-        <h3>Фотосессии</h3>
-        <p>Студия с естественным и искусственным светом, разнообразными фонами и реквизитом для съёмок.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="gallery" id="gallery">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Галерея</div>
-      <h2>Одно пространство — бесконечные возможности</h2>
-      <p>От камерных воркшопов до масштабных выставок — «Этюд» адаптируется под любой творческий проект.</p>
-    </div>
-    <div class="gallery-grid reveal">
-      <div class="gal-item a"><span class="gal-tag">До 80 гостей</span><span>Главный выставочный зал</span></div>
-      <div class="gal-item"><span class="gal-tag">Творчество</span><span>Мастерская с мольбертами</span></div>
-      <div class="gal-item rose"><span class="gal-tag">Отдых</span><span>Лаунж-зона с кофе</span></div>
-      <div class="gal-item"><span class="gal-tag">Свет</span><span>Студийное освещение</span></div>
-      <div class="gal-item rose"><span class="gal-tag">Атмосфера</span><span>Зона для вернисажей</span></div>
-    </div>
-  </div>
-</section>
-
-<section class="process" id="process">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Как это работает</div>
-      <h2>Четыре шага к вашему творческому событию</h2>
-      <p>Мы сделали процесс организации максимально простым и прозрачным.</p>
-    </div>
-    <div class="thread">
-      <div class="thread-step">
-        <div class="thread-node">01</div>
-        <h3>Идея и встреча</h3>
-        <p>Обсуждаем ваш проект, формат, количество участников и творческие потребности. Проводим экскурсию по пространству.</p>
-      </div>
-      <div class="thread-step">
-        <div class="thread-node">02</div>
-        <h3>Планирование</h3>
-        <p>Разрабатываем план мероприятия, подбираем оборудование, реквизит и дополнительные услуги. Утверждаем сценарий.</p>
-      </div>
-      <div class="thread-step">
-        <div class="thread-node">03</div>
-        <h3>Подготовка</h3>
-        <p>За 2-3 дня до события проводим финальную встречу, проверяем технику, расставляем мебель и готовим пространство.</p>
-      </div>
-      <div class="thread-step">
-        <div class="thread-node">04</div>
-        <h3>Ваше событие</h3>
-        <p>Координатор на площадке всё время мероприятия. Вы полностью погружаетесь в творческий процесс.</p>
+      <div class="event-card">
+        <div class="event-date">1-30 сентября</div>
+        <h3>Выставка «Новые формы»</h3>
+        <p>Экспозиция работ молодых скульпторов и керамистов. Вернисаж — 1 сентября в 19:00. Вход свободный.</p>
+        <a href="#" class="event-link">Узнать подробнее →</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="testimonials" id="testimonials">
+<section class="spaces" id="spaces">
   <div class="wrap">
     <div class="section-head reveal">
+      <div class="eyebrow">Пространства</div>
+      <h2>Шесть зон — шесть настроений</h2>
+      <p>Каждое пространство «Палитры» создано для конкретного вида творчества.</p>
+    </div>
+    <div class="spaces-grid reveal">
+      <div class="space-card space-card--large">
+        <div class="space-card-content">
+          <span class="space-tag">До 60 человек</span>
+          <h3>Главный зал</h3>
+          <p>Выставки, презентации, лекции и перформансы. Трансформируемое пространство с профессиональным светом.</p>
+        </div>
+      </div>
+      <div class="space-card">
+        <div class="space-card-content">
+          <span class="space-tag">Студия</span>
+          <h3>Мастерская живописи</h3>
+          <p>12 мольбертов, панорамные окна и система естественного освещения для работы с цветом.</p>
+        </div>
+      </div>
+      <div class="space-card">
+        <div class="space-card-content">
+          <span class="space-tag">Фотостудия</span>
+          <h3>Световая комната</h3>
+          <p>Полный комплект софтбоксов, фонов и отражателей. Идеально для предметной и портретной съёмки.</p>
+        </div>
+      </div>
+      <div class="space-card">
+        <div class="space-card-content">
+          <span class="space-tag">Лаунж</span>
+          <h3>Зона отдыха</h3>
+          <p>Уютное пространство с кофе, книгами по искусству и видом на город для неформального общения.</p>
+        </div>
+      </div>
+      <div class="space-card">
+        <div class="space-card-content">
+          <span class="space-tag">Мастерская</span>
+          <h3>Керамическая студия</h3>
+          <p>Гончарные круги, печи для обжига и всё необходимое для работы с глиной и керамикой.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="residency" id="residency">
+  <div class="wrap">
+    <div class="residency-grid">
+      <div class="residency-content reveal">
+        <div class="eyebrow">Резиденция</div>
+        <h2>Станьте частью творческого сообщества</h2>
+        <p>Арт-резиденция «Палитры» — это возможность работать в пространстве с полным доступом к оборудованию, участвовать в совместных проектах и представлять свои работы на выставках.</p>
+        <div class="residency-features">
+          <div class="residency-feature">
+            <span class="residency-feature-num">01</span>
+            <div>
+              <h4>Долгосрочная аренда</h4>
+              <p>От 1 до 6 месяцев с персональным рабочим местом и хранением материалов.</p>
+            </div>
+          </div>
+          <div class="residency-feature">
+            <span class="residency-feature-num">02</span>
+            <div>
+              <h4>Кураторская поддержка</h4>
+              <p>Помощь в организации выставок, поиске партнёров и продвижении проектов.</p>
+            </div>
+          </div>
+          <div class="residency-feature">
+            <span class="residency-feature-num">03</span>
+            <div>
+              <h4>Доступ к сообществу</h4>
+              <p>Закрытые мероприятия, мастер-классы от приглашённых экспертов и нетворкинг.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary">Подать заявку</a>
+      </div>
+      <div class="residency-visual reveal">
+        <div class="residency-visual-inner"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="section-head center reveal">
       <div class="eyebrow">Отзывы</div>
-      <h2>Что говорят художники и организаторы</h2>
+      <h2>Что говорят наши резиденты</h2>
     </div>
-    <div class="t-grid reveal">
-      <div class="t-card">
-        <p class="t-quote">«Потрясающее пространство для выставки! Профессиональный свет и удобная система подвеса — всё продумано до мелочей».</p>
-        <div class="t-meta">
-          <div class="t-avatar"></div>
-          <div><div class="t-name">Александра В.</div><div class="t-event">художник, персональная выставка</div></div>
+    <div class="reviews-grid reveal">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">«Палитра» — это место, где я наконец-то начал работать по-настоящему. Профессиональный свет и поддержка сообщества сделали мою выставку возможной.</p>
+        <div class="review-author">
+          <div class="review-avatar"></div>
+          <div>
+            <div class="review-name">Андрей Соколов</div>
+            <div class="review-role">художник, 2 выставки в «Палитре»</div>
+          </div>
         </div>
       </div>
-      <div class="t-card">
-        <p class="t-quote">«Провели двухдневный воркшоп по фотографии — студия идеально подошла для обучения. Координатор помогла со всей логистикой».</p>
-        <div class="t-meta">
-          <div class="t-avatar"></div>
-          <div><div class="t-name">Михаил П.</div><div class="t-event">фотограф, воркшоп на 20 человек</div></div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">Идеальное пространство для мастер-классов! 12 участников, прекрасное освещение, всё продумано до мелочей. Обязательно вернусь.</p>
+        <div class="review-author">
+          <div class="review-avatar"></div>
+          <div>
+            <div class="review-name">Екатерина Крылова</div>
+            <div class="review-role">художник-керамист, 8 мастер-классов</div>
+          </div>
         </div>
       </div>
-      <div class="t-card">
-        <p class="t-quote">«Уютная атмосфера, отличный свет и внимательная команда. Провели арт-вечеринку — все гости были в восторге».</p>
-        <div class="t-meta">
-          <div class="t-avatar"></div>
-          <div><div class="t-name">Екатерина и Сергей</div><div class="t-event">арт-вечеринка, 35 гостей</div></div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">Провели здесь фотосессию для портфолио. Отличное оборудование, удобная локация и очень дружелюбная команда. Рекомендую!</p>
+        <div class="review-author">
+          <div class="review-avatar"></div>
+          <div>
+            <div class="review-name">Мария Зайцева</div>
+            <div class="review-role">фотограф, 3 проекта в студии</div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="pricing" id="pricing">
-  <div class="wrap">
-    <div class="section-head center reveal" style="margin-left:auto;margin-right:auto;">
-      <div class="eyebrow">Стоимость аренды</div>
-      <h2>Прозрачные условия для любого проекта</h2>
-      <p>Итоговая стоимость зависит от формата мероприятия, сезона и дополнительных услуг — рассчитаем индивидуально.</p>
-    </div>
-    <div class="price-grid reveal">
-      <div class="price-card">
-        <div class="price-name">Творческий</div>
-        <div class="price-tag">До 20 участников</div>
-        <div class="price-value">от 8 000 ₽ <span>/ час</span></div>
-        <ul class="price-list">
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Студия с естественным светом</li>
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Базовая мебель и мольберты</li>
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Координатор на мероприятии</li>
-        </ul>
-        <a href="#contact" class="btn btn-ink">Уточнить дату</a>
-      </div>
-      <div class="price-card featured">
-        <div class="price-name">Выставочный</div>
-        <div class="price-tag">До 50 гостей</div>
-        <div class="price-value">от 20 000 ₽ <span>/ день</span></div>
-        <ul class="price-list">
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Полная территория: зал, лаунж, мастерская</li>
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Профессиональное освещение</li>
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Система подвеса для картин</li>
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Помощь в организации вернисажа</li>
-        </ul>
-        <a href="#contact" class="btn btn-gold">Уточнить дату</a>
-      </div>
-      <div class="price-card">
-        <div class="price-name">Premium</div>
-        <div class="price-tag">До 80 гостей</div>
-        <div class="price-value">от 35 000 ₽ <span>/ день</span></div>
-        <ul class="price-list">
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Полная территория + прилегающая зона</li>
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Два координатора</li>
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Репетиция и технический прогон</li>
-          <li><svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 10l4 4 8-8"/></svg>Фото- и видеосъёмка события</li>
-        </ul>
-        <a href="#contact" class="btn btn-ink">Уточнить дату</a>
       </div>
     </div>
   </div>
 </section>
 
 <section class="contact" id="contact">
-  <div class="wrap contact-grid">
-    <div class="reveal">
-      <div class="eyebrow">Контакты</div>
-      <h2 style="margin-top:16px; font-size:clamp(28px,3.2vw,40px);">Оставьте заявку — обсудим ваш проект в течение дня</h2>
-      <form id="bookingForm" style="margin-top:36px;">
-        <div class="form-row">
-          <div class="field">
-            <label for="name">Имя</label>
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="eyebrow">Контакты</div>
+        <h2 style="margin-top:16px;">Начните свой творческий проект</h2>
+        <p>Заполните форму, и мы свяжемся с вами в течение дня. Приезжайте на экскурсию — покажем все пространства вживую.</p>
+        <div class="contact-details">
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📍</div>
+            <div>
+              <strong>Адрес</strong>
+              <span>г. Москва, ул. Творческая, 24</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📞</div>
+            <div>
+              <strong>Телефон</strong>
+              <span>+7 (495) 555-12-34</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">✉</div>
+            <div>
+              <strong>Почта</strong>
+              <span>studio@palitra.art</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">🕐</div>
+            <div>
+              <strong>Часы работы</strong>
+              <span>Ежедневно, 10:00–21:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <form id="bookingForm">
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
             <input type="text" id="name" name="name" required placeholder="Как к вам обращаться">
           </div>
-          <div class="field">
+          <div class="form-group">
             <label for="phone">Телефон</label>
             <input type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__">
           </div>
-        </div>
-        <div class="form-row">
-          <div class="field">
-            <label for="date">Предполагаемая дата</label>
-            <input type="date" id="date" name="date">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com">
           </div>
-          <div class="field">
-            <label for="type">Формат мероприятия</label>
-            <select id="type" name="type">
-              <option>Мастер-класс</option>
+          <div class="form-group">
+            <label for="format">Формат мероприятия</label>
+            <select id="format" name="format">
               <option>Выставка</option>
-              <option>Воркшоп</option>
+              <option>Мастер-класс</option>
               <option>Фотосессия</option>
               <option>Арт-вечеринка</option>
+              <option>Резиденция</option>
               <option>Другое</option>
             </select>
           </div>
-        </div>
-        <div class="field">
-          <label for="message">Комментарий</label>
-          <textarea id="message" name="message" placeholder="Количество участников, пожелания по формату"></textarea>
-        </div>
-        <button type="submit" class="btn btn-gold">Отправить заявку</button>
-        <p class="field-note">Нажимая «Отправить», вы соглашаетесь с обработкой персональных данных.</p>
-        <p class="form-status" id="formStatus"></p>
-      </form>
-    </div>
-
-    <div class="reveal">
-      <div class="contact-info">
-        <h3>Арт-пространство «Этюд»</h3>
-        <p>Приходите на просмотр — покажем пространство вживую и обсудим все детали вашего творческого проекта.</p>
-        <div class="contact-line">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s7-7.5 7-12a7 7 0 10-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
-          <div><strong>Адрес</strong><span>г. Москва, ул. Арт-стрит, 12</span></div>
-        </div>
-        <div class="contact-line">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 5h4l2 5-2.5 1.5a11 11 0 005 5L14 14l5 2v4a2 2 0 01-2 2C9 22 2 15 2 7a2 2 0 012-2z"/></svg>
-          <div><strong>Телефон</strong><span>+7 (495) 987-65-43</span></div>
-        </div>
-        <div class="contact-line">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
-          <div><strong>Почта</strong><span>studio@etud.space</span></div>
-        </div>
-        <div class="contact-line">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
-          <div><strong>Часы просмотра</strong><span>Ежедневно, 10:00–20:00 (по записи)</span></div>
-        </div>
+          <div class="form-group">
+            <label for="message">Пожелания и комментарии</label>
+            <textarea id="message" name="message" placeholder="Количество участников, даты, особые пожелания"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Отправить заявку</button>
+          <p class="form-note">Нажимая «Отправить», вы соглашаетесь с обработкой персональных данных.</p>
+          <p class="form-status" id="formStatus"></p>
+        </form>
       </div>
     </div>
   </div>
@@ -328,26 +357,41 @@
 
 <footer>
   <div class="wrap">
-    <div class="footer-top">
-      <a href="#hero" class="logo" style="color:var(--text-light);">Этюд <small>арт-пространство</small></a>
-      <nav class="footer-nav">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="#hero" class="logo" style="color:var(--text-light);">Палитра <small>арт-лаборатория</small></a>
+        <p style="margin-top:16px;color:var(--text-light-dim);font-size:14px;">Пространство для творчества, вдохновения и реализации идей с 2020 года.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Навигация</h4>
         <ul>
-          <li><a href="#about">О пространстве</a></li>
-          <li><a href="#services">Форматы</a></li>
-          <li><a href="#gallery">Галерея</a></li>
-          <li><a href="#pricing">Стоимость</a></li>
-          <li><a href="#contact">Контакты</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#events">События</a></li>
+          <li><a href="#spaces">Пространства</a></li>
+          <li><a href="#residency">Резиденция</a></li>
         </ul>
-      </nav>
-      <div class="footer-social">
-        <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
-        <a href="#" aria-label="Telegram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 4L3 11l6 2 2 6 3-4 5 3 2-14z"/></svg></a>
-        <a href="#" aria-label="VK"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h4c.5 4 2.5 7 3.5 7V4h4v6c1 0 3-2 4-6h4c-.6 3-2.5 5.5-4 7 1.5 1 3.5 3.5 4.5 6h-4.2c-.8-2-2.2-3.7-4-4.7V17h-.5C10 17 6 13.5 5 4z" fill="currentColor" stroke="none"/></svg></a>
+      </div>
+      <div class="footer-col">
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="tel:+74955551234">+7 (495) 555-12-34</a></li>
+          <li><a href="mailto:studio@palitra.art">studio@palitra.art</a></li>
+          <li>ул. Творческая, 24, Москва</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Соцсети</h4>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Telegram">📱</a>
+          <a href="#" aria-label="VK">🌐</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Арт-пространство «Этюд». Все права защищены.</span>
-      <span>г. Москва, ул. Арт-стрит, 12</span>
+      <span>© 2026 Арт-лаборатория «Палитра». Все права защищены.</span>
+      <span>Сделано в Москве ❤</span>
     </div>
   </div>
 </footer>
@@ -355,14 +399,4 @@
 <script src="js/script.js" defer></script>
 
 </body>
-</html>
-  
- 
-  
-  
-  
-
- 
-
- 
- 
+</html>    
