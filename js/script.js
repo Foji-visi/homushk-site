@@ -1,4 +1,4 @@
-﻿// Sticky header
+// Sticky header
 const header = document.getElementById('siteHeader');
 window.addEventListener('scroll', () => {
   header.classList.toggle('scrolled', window.scrollY > 40);
@@ -13,7 +13,7 @@ navClose.addEventListener('click', () => mobileNav.classList.remove('open'));
 mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.remove('open')));
 
 // Reveal on scroll
-const revealEls = document.querySelectorAll('.reveal, .thread-step');
+const revealEls = document.querySelectorAll('.reveal');
 const io = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -21,7 +21,7 @@ const io = new IntersectionObserver((entries) => {
       io.unobserve(entry.target);
     }
   });
-}, { threshold: 0.18 });
+}, { threshold: 0.15 });
 revealEls.forEach(el => io.observe(el));
 
 // Booking form
@@ -33,10 +33,10 @@ form.addEventListener('submit', (e) => {
   const phone = document.getElementById('phone').value.trim();
   if (!name || !phone) {
     status.textContent = 'Пожалуйста, заполните имя и телефон.';
-    status.style.color = '#B8697A';
+    status.style.color = '#d45c4a';
     return;
   }
-  status.style.color = '#C47B4A';
+  status.style.color = '#d45c4a';
   status.textContent = 'Спасибо! Мы свяжемся с вами в течение дня.';
   form.reset();
 });
